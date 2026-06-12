@@ -1,0 +1,49 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Oct 29 10:18:12 2025"
+  rime_version: 1.13.1
+patch:
+  style:
+    color_scheme: Microsoft
+    display_tray_icon: false             # 是否显示右下角图标 
+    horizontal: true                     # 横排显示
+    inline_preedit: true                 # 嵌入式候选窗单行显示
+    font_point: 16
+    layout:
+      border: 1
+      # border_width: 3          # 边框宽度
+      margin_x: 9             # 候选项左右边距
+      margin_y: 7            # 候选项上下边距
+      # spacing: 12              # 候选项间距
+      candidate_spacing: 24    # 候选项内部间距
+      round_corner: 10         # 输入法候选框的圆角幅度，0为直角
+      hilite_padding: 7        # 激活候选项背景色高度
+      # hilite_spacing: 3        # 序号和候选项之间的间隔
+      hilited_corner_radius: 8 # 选词的圆角幅度，0为直角
+      hilite_spacing: 6                      # 候选项和相应标签的间距
+      shadow_radius: 3                     # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+      shadow_offset_x: 3                     # 阴影左右偏移距离
+      shadow_offset_y: 3                     # 阴影上下偏移距离
+      hilite_padding_y: 5
+
+
+  preset_color_schemes/+:
+    Microsoft:
+      name: 微软／Microsoft
+      author: jeff
+      text_color: 0x666666
+      candidate_text_color: 0x000000
+      back_color: 0xFFFFFF
+      border_color: 0xE2E2E2
+      hilited_text_color: 0x000000
+      hilited_back_color: 0xFFFFFF
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0xFF4a7500
+      # hilited_candidate_back_color: 0xF88F46
+      shadow_color: 0x666666        # 阴影
+    
+    
+
+# 森林绿 0xFF228B22  谷歌绿0xF88F46  矢车菊的蓝色0xFFED9564  春天的绿色0xFF71B33C 海洋绿0xFF578B2E  星巴克 0xFF4a7500 瑞幸蓝 0xFF232773
